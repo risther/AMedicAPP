@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "467029979508",
+    "firebase_url": "https://amedicapp.firebaseio.com",
+    "project_id": "amedicapp",
+    "storage_bucket": "amedicapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467029979508:android:15a5f733d7a761f10c7c21",
+        "android_client_info": {
+          "package_name": "com.example.amedicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467029979508-v7benu0cc1qu01kuvtj0v73meqa7ghth.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amedicapp",
+            "certificate_hash": "18f809923d4428879f03c05fe631f90f908bc140"
+          }
+        },
+        {
+          "client_id": "467029979508-5jli6ognmt2vhmpcl0gsu1764bm54dt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9hP6xNP-1h5XVIgf9Ux4SQ22Hx4K8wlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467029979508-5jli6ognmt2vhmpcl0gsu1764bm54dt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

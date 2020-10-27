@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "121949125633",
+    "firebase_url": "https://practica-firebase-73291.firebaseio.com",
+    "project_id": "practica-firebase-73291",
+    "storage_bucket": "practica-firebase-73291.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121949125633:android:f0ae325b08aa5f48b79400",
+        "android_client_info": {
+          "package_name": "com.example.amedicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121949125633-eu5i513n4air4oput12df68v2728rgdu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amedicapp",
+            "certificate_hash": "18f809923d4428879f03c05fe631f90f908bc140"
+          }
+        },
+        {
+          "client_id": "121949125633-2e4i9ig81lefqa6n9qed8a8tcal9bhhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD2yhkEUJRY2xGe4CCByB_o5bLSVWVFCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121949125633-2e4i9ig81lefqa6n9qed8a8tcal9bhhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121949125633:android:17c903de0e31841bb79400",
+        "android_client_info": {
+          "package_name": "com.example.amedicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121949125633-0lb956deruh9a0asvmoqv3bmpolt93sa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amedicapp",
+            "certificate_hash": "18f809923d4428879f03c05fe631f90f908bc140"
+          }
+        },
+        {
+          "client_id": "121949125633-2e4i9ig81lefqa6n9qed8a8tcal9bhhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD2yhkEUJRY2xGe4CCByB_o5bLSVWVFCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121949125633-2e4i9ig81lefqa6n9qed8a8tcal9bhhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121949125633:android:b6b0c4dac055877ab79400",
+        "android_client_info": {
+          "package_name": "com.example.amedicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121949125633-n98pild1co448hek7ha3npm4osnf3vvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amedicapp",
+            "certificate_hash": "18f809923d4428879f03c05fe631f90f908bc140"
+          }
+        },
+        {
+          "client_id": "121949125633-2e4i9ig81lefqa6n9qed8a8tcal9bhhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD2yhkEUJRY2xGe4CCByB_o5bLSVWVFCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121949125633-2e4i9ig81lefqa6n9qed8a8tcal9bhhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
