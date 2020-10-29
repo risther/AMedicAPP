@@ -9,13 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PRegistrarEspecialista"></activity>
+
+        <activity android:name=".PprincipalE" /><activity
+            android:name=".ui.login.PLoginE"
+            android:label="@string/title_activity_p_login_e" />
+        <activity android:name=".PRegistrarEspecialista" />
         <activity android:name=".PEspecialista" />
         <activity android:name=".PEspecialidades" />
         <activity android:name=".PPrincipal" />
         <activity android:name=".MainActivity" />
         <activity android:name=".PRegistrarCliente" />
-        <activity android:name=".PLogin">
+        <activity android:name=".PLogin" />
+        <activity android:name=".PRegistrarEspecialidades">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

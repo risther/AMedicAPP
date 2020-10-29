@@ -11,10 +11,19 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+<<<<<<< HEAD
 
     /Login
     <string name="login">Login</string>
     <string name="titulologin">Login AMedicAPP</string>
     <string name="Remember">Recordar Contraseña</string>
     <string name="lema">REGISTRARSE</string>
+=======
+    <string name="title_activity_p_login_e">PLoginE</string>
+    <string-array name="tipoUsuario">
+        <item>Usuario</item>
+        <item>Especialista</item>
+        <item>Administrador</item>
+    </string-array>
+>>>>>>> 42703560dbe5b21857b10cfa58739181c0d8fd35
 </resources>

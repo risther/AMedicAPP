@@ -2,68 +2,72 @@ package com.example.amedicapp;
 
 public class EUsuarioeEspecialista {
 
-    public String getId() {
-        return id;
+
+
+    private String idE;
+
+    public String getIdE() {
+        return idE;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setIdE(String idE) {
+        this.idE = idE;
     }
 
-    public String getNombres() {
-        return nombres;
+    public String getNombresE() {
+        return nombresE;
     }
 
-    public void setNombres(String nombres) {
-        this.nombres = nombres;
+    public void setNombresE(String nombresE) {
+        this.nombresE = nombresE;
     }
 
-    public String getApellidos() {
-        return apellidos;
+    public String getApellidosE() {
+        return apellidosE;
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
+    public void setApellidosE(String apellidosE) {
+        this.apellidosE = apellidosE;
     }
 
-    public String getEspecialidad() {
-        return especialidad;
+    public String getEspecialidadE() {
+        return especialidadE;
     }
 
-    public void setEspecialidad(String especialidad) {
-        this.especialidad = especialidad;
+    public void setEspecialidadE(String especialidadE) {
+        this.especialidadE = especialidadE;
     }
 
-    public String getHorarioInicio() {
-        return horarioInicio;
+    public String getHorarioInicioE() {
+        return horarioInicioE;
     }
 
-    public void setHorarioInicio(String horarioInicio) {
-        this.horarioInicio = horarioInicio;
+    public void setHorarioInicioE(String horarioInicioE) {
+        this.horarioInicioE = horarioInicioE;
     }
 
-    public String getHorarioFinal() {
-        return horarioFinal;
+    public String getHorarioFinalE() {
+        return horarioFinalE;
     }
 
-    public void setHorarioFinal(String horarioFinal) {
-        this.horarioFinal = horarioFinal;
+    public void setHorarioFinalE(String horarioFinalE) {
+        this.horarioFinalE = horarioFinalE;
     }
 
-    public String getCorreo() {
-        return correo;
+    public String getCorreoE() {
+        return correoE;
     }
 
-    public void setCorreo(String correo) {
-        this.correo = correo;
+    public void setCorreoE(String correoE) {
+        this.correoE = correoE;
     }
 
-    public String getContraseña() {
-        return contraseña;
+    public String getContraseñaE() {
+        return contraseñaE;
     }
 
-    public void setContraseña(String contraseña) {
-        this.contraseña = contraseña;
+    public void setContraseñaE(String contraseñaE) {
+        this.contraseñaE = contraseñaE;
     }
 
     public String getTipoUsuarioE() {
@@ -74,13 +78,12 @@ public class EUsuarioeEspecialista {
         this.tipoUsuarioE = tipoUsuarioE;
     }
 
-    private String id;
-    private String nombres;
-    private String apellidos;
-    private String especialidad;
-    private String horarioInicio;
-    private String horarioFinal;
-    private  String correo;
-    private  String contraseña;
+    private String nombresE;
+    private String apellidosE;
+    private String especialidadE;
+    private String horarioInicioE;
+    private String horarioFinalE;
+    private  String correoE;
+    private  String contraseñaE;
     private  String tipoUsuarioE;
 }
