@@ -3,4 +3,13 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorOrange">#F76300</color>
+    <color name="colorCeleste">#0178D4</color>
+    <color name="colorCeleste2">#448aff</color>
+    <color name="colorCeleste3">#00ACEC</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBluOs">#00084D</color>
+    <color name="colorgrizclaro">#4C4949</color>
+    <color name="colorBluNo">#09102D</color>
 </resources>
