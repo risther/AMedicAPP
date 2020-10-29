@@ -67,6 +67,7 @@ public class PRegistrarCliente extends AppCompatActivity {
                     objUsuario.setCorreo(correo);
                     databaseReference.child("EUsuarioCliente").child(objUsuario.getId()).setValue(objUsuario);
 
+
                     Toast.makeText(PRegistrarCliente.this,"Agregado",Toast.LENGTH_SHORT).show();
                     registrarUsuario();
 
