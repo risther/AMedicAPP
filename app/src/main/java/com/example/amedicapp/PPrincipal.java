@@ -12,7 +12,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class PPrincipal extends AppCompatActivity {
 
-    ImageView btnReservar;
+    ImageView btnReservar,btnCreasCuenta;
     Button btnCerrarSesion;
     private FirebaseAuth mAuth;
     @Override
@@ -22,6 +22,7 @@ public class PPrincipal extends AppCompatActivity {
 
         btnCerrarSesion =(Button) findViewById(R.id.btnCerrarSesion);
         btnReservar =(ImageView) findViewById(R.id.btnReservar);
+        btnCreasCuenta =(ImageView) findViewById(R.id.btnInformacion);
         mAuth=FirebaseAuth.getInstance();
 
         btnCerrarSesion.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +39,14 @@ public class PPrincipal extends AppCompatActivity {
             public void onClick(View v) {
 
                 startActivity(new Intent(PPrincipal.this,PEspecialidades.class));
+                finish();
+            }
+        });
+
+        btnCreasCuenta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PPrincipal.this,PRegistrarCliente.class));
                 finish();
             }
         });

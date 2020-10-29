@@ -101,6 +101,7 @@ public class PRegistrarCliente extends AppCompatActivity {
                              }
                         }
                     });*/
+                    mAuth.signOut();
                 }else {
                     Toast.makeText(PRegistrarCliente.this,"No se pudo registrar",Toast.LENGTH_SHORT);
                 }

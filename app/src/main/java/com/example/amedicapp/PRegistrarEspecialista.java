@@ -33,13 +33,13 @@ public class PRegistrarEspecialista extends AppCompatActivity {
         setContentView(R.layout.activity_p_registrar_especialista);
 
 
-        tvnombres=(TextView) findViewById(R.id.tvNombre);
-        tvapellidos=(TextView) findViewById(R.id.tvApellidos);
-        tvEspecialidad=(TextView) findViewById(R.id.tvEpecialidad);
+        tvnombres=(TextView) findViewById(R.id.tvNombreE);
+        tvapellidos=(TextView) findViewById(R.id.tvApellidosE);
+        tvEspecialidad=(TextView) findViewById(R.id.tvEpecialidadE);
         tvHorainicio=(TextView) findViewById(R.id.tvHorainicio);
         tvHoraFinal=(TextView) findViewById(R.id.tvHoraFinal);
-        tvCorreo=(TextView) findViewById(R.id.tvCorreo);
-        tvContrseña=(TextView) findViewById(R.id.tvContraseña);
+        tvCorreo=(TextView) findViewById(R.id.tvCorreoE);
+        tvContrseña=(TextView) findViewById(R.id.tvContraseñaE);
         btnRegistrarE=(Button)  findViewById(R.id.btnRegistrarE);
         mAuth= FirebaseAuth.getInstance();
         incializarFirebase();
@@ -59,19 +59,19 @@ public class PRegistrarEspecialista extends AppCompatActivity {
                 }else {
 
                     EUsuarioeEspecialista objUsuario= new EUsuarioeEspecialista();
-                    objUsuario.setId(UUID.randomUUID().toString());
-                    objUsuario.setNombres(nombres);
-                    objUsuario.setApellidos(apellidos);
-                    objUsuario.setHorarioInicio(Horainicio);
-                    objUsuario.setHorarioFinal(HoraFinal);
-                    objUsuario.setEspecialidad(Especialidad);
-                    objUsuario.setContraseña(Contrseña);
-                    objUsuario.setCorreo(Correo);
-                    objUsuario.setTipoUsuarioE("Especialista");
-                    databaseReference.child("EUsuarioEspecialista").child(objUsuario.getId()).setValue(objUsuario);
+                    objUsuario.setIdE(UUID.randomUUID().toString());
+                    objUsuario.setNombresE(nombres);
+                    objUsuario.setApellidosE(apellidos);
+                    objUsuario.setHorarioInicioE(Horainicio);
+                    objUsuario.setHorarioFinalE(HoraFinal);
+                    objUsuario.setEspecialidadE(Especialidad);
+                    objUsuario.setContraseñaE(Contrseña);
+                    objUsuario.setCorreoE(Correo);
+                    objUsuario.setTipoUsuarioE("especialista");
+                    databaseReference.child("EUsuarioEspecialista").child(objUsuario.getIdE()).setValue(objUsuario);
 
                     Toast.makeText(PRegistrarEspecialista.this,"Agregado",Toast.LENGTH_SHORT).show();
-                    //registrarUsuario();
+                    registrarUsuario();
 
 
                 }
@@ -88,24 +88,7 @@ public class PRegistrarEspecialista extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     Toast.makeText(PRegistrarEspecialista.this,"se pudo registrar",Toast.LENGTH_SHORT);
-                    /*Map<String, Object> map= new HashMap<>();
-                    map.put("name",name);
-                    map.put("correo",correo);
-                    map.put("contraseña",contraseña);
 
-                    String id = mAuth.getCurrentUser().getUid();
-
-                    mDatabasse.child("User").child(id).setValue(map).addOnCompleteListener(new OnCompleteListener<Void>() {
-                        @Override
-                        public void onComplete(@NonNull Task<Void> task) {
-                             if (task.isSuccessful()){
-                                 startActivity(new Intent(MainActivity.this,actividad.class));
-                                 finish();
-                             }else {
-                                 Toast.makeText(MainActivity.this,"No se pudo registrar correctamente",Toast.LENGTH_SHORT);
-                             }
-                        }
-                    });*/
                 }else {
                     Toast.makeText(PRegistrarEspecialista.this,"No se pudo registrar",Toast.LENGTH_SHORT);
                 }
